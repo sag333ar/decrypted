@@ -1,0 +1,48 @@
+Pods
+Pods/**
+Pods/Pods.xcodeproj/xcuserdata/
+*.xcodeproj/xcuserdata/**
+*.xcworkspace/xcuserdata/**
+*.app.dSYM.zip
+*.ipa
+*.cer
+*.DS_Store
+fastlane/report.xml
+# fastlane specific
+**/fastlane/report.xml
+
+Carthage
+Carthage/**
+
+# deliver temporary files
+**/fastlane/Preview.html
+
+# snapshot generated screenshots
+**/fastlane/screenshots
+
+# scan temporary files
+**/fastlane/test_output
+
+# build
+node_modules/
+.env.local
+.env
+
+/node_modules/
+/.env.local
+/.env
+
+/iOS
+
+/vendor
+/.bundle
+/build
+build
+build.zip
+package-lock.json
+yarn.lock
+.eslintcache
+
+
+fastlane/README.md
+fastlane/report.xml
